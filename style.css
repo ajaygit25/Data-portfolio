@@ -1,0 +1,137 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: linear-gradient(to bottom, #0f172a, #1e293b);
+  color: #f8fafc;
+  line-height: 1.6;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: rgba(255, 255, 255, 0.05);
+  position: sticky;
+  top: 0;
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.nav a {
+  margin: 0 1rem;
+  color: #f1f5f9;
+  text-decoration: none;
+}
+.nav a:hover {
+  color: #818cf8;
+}
+.btn {
+  padding: 0.5rem 1rem;
+  background: #3b82f6;
+  border-radius: 5px;
+  color: #fff;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+.hero h1 {
+  font-size: 2.5rem;
+}
+.hero p {
+  margin: 1rem 0;
+  color: #cbd5e1;
+}
+.btn-primary {
+  background: #6366f1;
+  padding: 0.6rem 1.2rem;
+  margin-right: 1rem;
+  border-radius: 6px;
+  color: #fff;
+  text-decoration: none;
+}
+.btn-secondary {
+  border: 1px solid #94a3b8;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  color: #e2e8f0;
+  text-decoration: none;
+}
+
+/* Skills */
+.skills {
+  padding: 2rem;
+  text-align: center;
+}
+.skill-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.skill {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+/* Projects */
+.projects {
+  padding: 2rem;
+}
+.project {
+  background: rgba(255, 255, 255, 0.05);
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+/* About */
+.about {
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Contact */
+.contact {
+  padding: 2rem;
+}
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.contact input, .contact textarea {
+  padding: 0.8rem;
+  border: none;
+  border-radius: 5px;
+}
+.contact button {
+  padding: 0.8rem;
+  background: #3b82f6;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.contact button:hover {
+  background: #2563eb;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  margin-top: 2rem;
+}
